@@ -1,6 +1,6 @@
 /*****
  * Author: Glowstudent
- * Program: Binary Sort Alteration
+ * Program: Binary Search Alteration
  *****/
 
 #include <iostream>

@@ -5,7 +5,6 @@
 
 #include <iostream>
 #include <string>
-#include "searchAlgs.h"
 #include "sortingAlgs.h"
 #include <fstream>
 
@@ -27,10 +26,17 @@ int main()
         return 1;
     }
 
-    while (getline(inFile, s) && !inFile.eof() && inFile.good() && (s != "" && s != " ") && i < SIZE)
+    while (getline(inFile, s) && (s != "" && s != " ") && i < SIZE)
     {
-        arr[i] = stoi(s);
-        i++;
+        try
+        {
+            arr[i++] = stoi(s);
+        }
+        catch (invalid_argument e)
+        {
+            cout << "Invalid number in file: " << s << endl;
+            return 1;
+        }
     }
 
     inFile.close();

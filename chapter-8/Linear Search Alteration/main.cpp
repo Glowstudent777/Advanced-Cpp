@@ -1,6 +1,6 @@
 /*****
  * Author: Glowstudent
- * Program: Linear Sort Alteration
+ * Program: Linear Search Alteration
  *****/
 
 #include <iostream>
