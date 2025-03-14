@@ -1,0 +1,4 @@
+Hello, this is a small file.
+It contains only a few lines.
+This is useful for testing.
+Enjoy your day!

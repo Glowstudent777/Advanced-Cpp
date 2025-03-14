@@ -1,0 +1,33 @@
+Testing file display program.
+This file has more than 24 lines.
+It should trigger a pause.
+Let's keep going...
+More lines.
+This is line six.
+Another line.
+And another one.
+The program should pause soon.
+Just checking how it handles scrolling.
+More content.
+Testing continues.
+Almost halfway.
+Hope this works as expected.
+Getting closer to the pause.
+Keep going.
+Don't stop now.
+Almost there.
+A few more lines to go.
+Will it pause?
+Testing the logic.
+Almost at 24 lines.
+One more line.
+This should pause here.
+
+Now, let's continue.
+More lines after the pause.
+Everything should be working fine.
+Just verifying the output.
+The logic seems solid.
+Almost done.
+Wrapping it up.
+Final test complete.
