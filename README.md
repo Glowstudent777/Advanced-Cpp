@@ -17,12 +17,21 @@ To run the C++ code, you will need to have a C++ compiler installed on your comp
 
 Once you have a C++ compiler installed, you can compile and run the code by executing the following commands in the terminal:
 
-```bash
+```sh
 g++ <filename>.cpp -o <filename>
 ./<filename>
 ```
 
 Replace `<filename>` with the name of the C++ file you want to run.
+
+## Chapter Index
+
+- [Chapter 8: Searching and Sorting Arrays](Exercises/chapter-08)
+- [Chapter 9: Pointers](Exercises/chapter-09)
+- [Chapter 10: Characters, C-Strings, and More about the `string` Class](Exercises/chapter-10)
+- [Chapter 11: Structured Data](Exercises/chapter-11)
+- [Chapter 12: Advanced File Operations](Exercises/chapter-12)
+- [Chapter 13: Introduction to Classes](Exercises/chapter-13)
 
 ## Contributing
 
