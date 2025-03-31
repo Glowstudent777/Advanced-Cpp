@@ -14,7 +14,9 @@ int main()
     Date today;
     int month, day, year, form;
 
-    cout << "Enter today's month (1-12): ";
+    cout << "This program will display the date in different formats." << endl;
+
+    cout << "Enter a month (1-12): ";
     cin >> month;
 
     while (month < 1 || month > 12 || cin.fail())
@@ -26,7 +28,7 @@ int main()
         cin >> month;
     }
 
-    cout << "Enter today's day (1-31): ";
+    cout << "Enter a day (1-31): ";
     cin >> day;
 
     while (day < 1 || day > 31 || cin.fail())
@@ -38,7 +40,7 @@ int main()
         cin >> day;
     }
 
-    cout << "Enter today's year (YYYY): ";
+    cout << "Enter a year (YYYY): ";
     cin >> year;
 
     while (year < 0 || cin.fail())
@@ -67,7 +69,7 @@ int main()
     }
 
     DisplayFormat displayFormat = static_cast<DisplayFormat>(form);
-    cout << "Today's date is: ";
+    cout << "The formatted date is: ";
     today.displayDate(displayFormat);
 
     return 0;
