@@ -11,7 +11,7 @@ The code in this repository will be written mostly, if not all, in C++. You can 
 - C++ compiler (e.g., g++)
 - Terminal or Command Prompt
 
-## C++
+## Single File Executable
 
 To run the C++ code, you will need to have a C++ compiler installed on your computer. You can use a compiler like g++ to compile the code.
 
@@ -24,6 +24,23 @@ g++ <filename>.cpp -o <filename>
 
 Replace `<filename>` with the name of the C++ file you want to run.
 
+## Multiple File Executable
+
+To run the C++ code that is split into multiple files, you can compile all the files together using the provided `build.sh` script. This script will compile all the C++ files in the current directory and create an executable file.
+
+Build:
+
+```sh
+./build.sh
+```
+
+<br>
+Run:
+
+```sh
+./program.exe
+```
+
 ## Chapter Index
 
 - [Chapter 8: Searching and Sorting Arrays](Exercises/chapter-08)
@@ -32,6 +49,7 @@ Replace `<filename>` with the name of the C++ file you want to run.
 - [Chapter 11: Structured Data](Exercises/chapter-11)
 - [Chapter 12: Advanced File Operations](Exercises/chapter-12)
 - [Chapter 13: Introduction to Classes](Exercises/chapter-13)
+- [Chapter 14: More about Classes](Exercises/chapter-14)
 
 ## Contributing
 
