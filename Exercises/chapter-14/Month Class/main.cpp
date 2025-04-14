@@ -1,3 +1,8 @@
+/*****
+ * Author: Glowstudent
+ * Program: Month Class
+ *****/
+
 #include <iostream>
 #include <limits>
 #include <string>
