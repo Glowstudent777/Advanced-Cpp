@@ -64,6 +64,8 @@
         "sstream": "cpp",
         "functional": "cpp",
         "unordered_set": "cpp",
-        "chrono": "cpp"
+        "chrono": "cpp",
+        "forward_list": "cpp",
+        "ratio": "cpp"
     },
 }
