@@ -50,6 +50,7 @@ Run:
 - [Chapter 12: Advanced File Operations](Exercises/chapter-12)
 - [Chapter 13: Introduction to Classes](Exercises/chapter-13)
 - [Chapter 14: More about Classes](Exercises/chapter-14)
+- [Chapter 15: Inheritance, Polymorphism, and Virtual Functions](Exercises/chapter-15)
 
 ## Contributing
 
