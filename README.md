@@ -51,6 +51,7 @@ Run:
 - [Chapter 13: Introduction to Classes](Exercises/chapter-13)
 - [Chapter 14: More about Classes](Exercises/chapter-14)
 - [Chapter 15: Inheritance, Polymorphism, and Virtual Functions](Exercises/chapter-15)
+- [Chapter 16: Exceptions and Templates](Exercises/chapter-16)
 
 ## Contributing
 
